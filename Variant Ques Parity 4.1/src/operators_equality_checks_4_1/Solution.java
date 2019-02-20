@@ -21,7 +21,9 @@ public class Solution {
 	 * Computes the mod value of dividend % divider using bitwise operators O(1) run time, O(1) space complexity
 	 */
 	public static long computeMod(long dividend, long divider) {
-		return (dividend & (divider-1));
+		System.out.println("mod = "+dividend % divider);
+		  return (dividend & (divider-1));
+		
 	}
 	
 	/**
